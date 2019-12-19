@@ -19,4 +19,4 @@ let day;
 
 day = appData.budget / 30;
 
-alert("Бюджет на 1 день" + day);
+alert("Бюджет на 1 день" + day + "Дата" + appData.timeData);
