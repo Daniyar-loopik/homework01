@@ -38,6 +38,7 @@ for (let i = 0; i < 2; i++) {
         appData.expenses[a] = b;
     } else if ((typeof(a)) != 'string' || (typeof(a)) == null || (typeof(b)) == null || a == '' || b == '' || a.length > 50) {
         console.log("eror");
+        i--;
     }
     twoWays++;
 }*/
@@ -52,6 +53,7 @@ for (let i = 0; i < 2; i++) {
         appData.expenses[a] = b;
     } else if ((typeof(a)) != 'string' || (typeof(a)) == null || (typeof(b)) == null || a == '' || b == '' || a.length > 50) {
         console.log("eror");
+        i--;
     }
     twoWays++;
 
